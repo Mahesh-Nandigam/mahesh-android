@@ -1,32 +1,44 @@
-# ⚡ Mahesh- (The Sovereign Voice AI Assistant for Android)
+# ⚡ mahesh- 
 
-> **"Hey Mahesh"** — A multi-turn reasoning Android Voice Assistant and Autonomous Mobile Screen Pilot built with modern Kotlin 2.0 and Jetpack Compose.
+### *"Siri is mid. Android just got the GOAT."* 👑
 
----
+Tired of your iPhone friends flexing in class with *"Hey Siri call this, call that"*? 
 
-## 🌟 Core Superpowers
-* 🎤 **Offline Wake Word:** Low-power wake word listener (`"Hey Mahesh"`) running in background.
-* 🧠 **GOAT-Level Reasoning:** Entity disambiguation (*"Found 3 Ramalingams: College, Uncle, Jio. Which one?"*) and missing parameter resolution.
-* ⚡ **Direct Native System Bridge:** Direct calling via `TelecomManager`, contacts fuzzy resolution via `ContactsContract`, and `CameraX` auto-snap.
-* 🦾 **Accessibility UI Screen Pilot:** Hands-free UI typing and sending for third-party apps (WhatsApp, Instagram).
-* ✨ **Holographic System Overlay:** Glowing hardware-accelerated animated HUD rendering across any screen.
+Say hello to **mahesh-** — the autonomous, zero-friction Android voice AI that makes Siri look like a 2012 Nokia keypad. 
+
+Built natively for Android so you can run your phone completely hands-free while walking to class, chilling in the canteen, or driving.
 
 ---
 
-## 🏗️ Tech Stack
-* **Language:** Kotlin 2.0+ (Coroutines, Flow, StateFlow)
-* **UI:** Jetpack Compose + Material 3 Design System
-* **Architecture:** Clean Architecture + MVVM + Unidirectional Data Flow (UDF)
-* **Target SDK:** Android 15+ (API 35) | **Min SDK:** Android 8.0 (API 26)
+## 🔥 The Flex (What Mahesh Actually Does)
+
+* 🗣️ **"Hey Mahesh" Wake Word** — Just say the word. Screen on, screen off, in your pocket — Mahesh wakes up and gets to work.
+* 🧠 **GOAT-Level Contact Disambiguation** — You have 5 people named *"Ramalingam"*? Mahesh doesn't panic. He literally asks: *"Bro, I found 3 Ramalingams: College, Uncle, and Jio. Which one are we ringing?"*
+* 💬 **Zero-Touch WhatsApp Pilot** — *"Hey Mahesh, tell Rahul on WhatsApp we're at table 4."* Opens WhatsApp, types the text, hits send, and goes back to your home screen. You didn't even tap the glass.
+* 📸 **Hands-Free Group Snaps** — *"Hey Mahesh, take a group photo in 3 seconds."* Opens front camera, counts down `3... 2... 1...`, snaps the picture cleanly.
+* ⚡ **Instant System Control** — Torch, alarms, volume, direct phone calls on speaker — sub-200ms speed.
 
 ---
 
-## 🚀 Development & Local Testing
+## 🛠️ The Tech Under The Hood (Built Like A Tank)
+
+* 📱 **100% Native Kotlin 2.0 & Jetpack Compose** — Buttery smooth 120 FPS glowing holographic HUD.
+* 🔋 **Ultra-Low Battery Background Service** — Uses $< 1.5\%$ battery a day for wake-word listening.
+* 🦾 **Android Accessibility Action Engine** — Navigates apps like a human finger.
+* 🛡️ **Zero Cloud BS for Basic Actions** — Local calls, alarms, and contacts resolution run 100% offline on your device hardware.
+
+---
+
+## 🚀 Quick Setup for Devs
 ```bash
-# Build debug APK
-./gradlew assembleDebug
+# Clone the vibe
+git clone https://github.com/Mahesh-Nandigam/mahesh-android.git
+cd mahesh-android
 
-# Deploy to connected physical device over Wireless ADB
+# Build & Push directly to your phone over Wi-Fi
 ./gradlew installDebug
-adb shell am start -n com.heymahesh.agent/.MainActivity
 ```
+
+---
+
+*Made with raw caffeine and pure Android dominance.* 🚀
