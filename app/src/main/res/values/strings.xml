@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mahesh</string>
+    <string name="accessibility_service_label">Mahesh Screen Pilot</string>
+    <string name="accessibility_service_description">Allows Mahesh to perform hands-free voice-directed actions such as typing and sending WhatsApp messages and navigating app menus.</string>
+</resources>
